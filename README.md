@@ -1,4 +1,6 @@
-# Kafka
+# Kafka Twitter
+
+This application will read streams of tweets in real time and put them into a Kafka cluster.
 
 ### Useful commands
 

@@ -23,6 +23,7 @@ public class TwitterProducer {
     private Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
 
     // These secrets should be read from a config file
+    // don't forget to regenerate after each commit, in order to not expose current secrets
     private static final String token = "1267453548025036802-shIzNOemUttPpHPQukHBNrgREv8i4u";
     private static final String consumerKey = "dCKrVqE8YzmWQp6dJXeyiRgUq";
     private static final String consumerSecret = "cpq5bHfbHzmJgd9YLJBGeXRybFM0lQscpevl3WPlsZhun1fE7z";
